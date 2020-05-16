@@ -1,40 +1,29 @@
 {
-  "name": "web-socket-pages",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://github.com/joaquineichholz/web-socket-page",
+  "name": "realtime-chart-websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start:client",
+    "start:client": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "npm": "6.14.4",
+  "node":"12.16.2",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "nodemon": "^2.0.4",
+    "os-utils": "0.0.14",
+    "parcel": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "recharts": "^2.0.0-beta.6",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "parcel-bundler": "^1.12.4"
   }
 }
