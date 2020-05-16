@@ -31,7 +31,7 @@ export default function ChartStock(props) {
   return (
     <div>
       <LineChart width={450} height={300} data={data}>
-        <XAxis dataKey="time"  stroke="#7c795d" label={{ value:"Tiempo", maeginTop:"100px" ,angle: -90, position:"insideBottom" }}/>
+        <XAxis dataKey="time"  stroke="#7c795d" label={{ value:"Tiempo", maeginTop:"100px" , position:"insideBottom" }}/>
         <YAxis  stroke="#7c795d" label={{ value:"Valor", angle: -90 }}/>
         <Tooltip/>
         <CartesianGrid  stroke="#7c795d " strokeDasharray="5 5"/>
